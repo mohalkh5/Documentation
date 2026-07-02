@@ -24,7 +24,7 @@ The process for obtaining a CURC account for CU Boulder users is straightforward
 - Research Computing accounts are separate from your CU accounts. You must sign up for an individual Research Computing account if you wish to access Research Computing resources.
 - Once your account is provisioned, please wait 15 minutes before signing in
 - If you are having issues with DUO, please consult our [Duo Frequently Asked Questions](./faq.md#duo-multi-factor-authentication) section
-- If you are having issues with Microsoft MFA, contact the [IT Service Center](https://oit.colorado.edu/support/it-service-center) or visit [Buff Techs](https://oit.colorado.edu/support/buff-techs). You will be required to have your Buff OneCard or government ID for MFA help.
+- If you are having issues with Microsoft MFA, contact the [IT Service Center](https://oit.colorado.edu/support/it-service-center) or visit [Buff Techs](https://oit.colorado.edu/support/buff-techs-desktop-support). You will be required to have your Buff OneCard or government ID for MFA help.
 ````
 
 `````
