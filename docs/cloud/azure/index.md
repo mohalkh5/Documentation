@@ -14,28 +14,17 @@ If you are looking to get a new Azure subscription or have questions about an ex
 
 ```{toctree}
 :maxdepth: 1
-
 faq
-
 ```
-
 ```{toctree}
 :maxdepth: 1
-
 billing/billing
-
 ```
-
 ```{toctree}
 :maxdepth: 1
-
 budget-actions/budget-actions
-
 ```
-
 ```{toctree}
 :maxdepth: 1
-
 Microsoft-Azure-for-Academic-Research
-
 ```
