@@ -2,7 +2,7 @@
 
 ## What is the URL for the Single Sign-On Console?
 **Answer:**
-Login using your [CU IdentiKey](https://oit.colorado.edu/services/identity-access-management/identikey) here: [http://portal.azure.com](http://portal.azure.com).
+Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com) using your [CU IdentiKey](https://oit.colorado.edu/services/identity-access-management/identikey).
 
 ## What region has the lowest latency from CU Campus?
 **Answer:**
