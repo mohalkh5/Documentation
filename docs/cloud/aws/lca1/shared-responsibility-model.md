@@ -4,8 +4,9 @@ The [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-r
 
 The Cloud Foundations (CFS) team extends the shared responsibility model by providing an additional layer of support between AWS and the customer. CFS manages the integration of the AWS cloud with CU standards and resources. CFS customers manage their applications, data, and use of cloud services.
 
-```{image} images/shared-responsibility-model/shared-responsibility-model.png
-:alt: The AWS shared responsibility model with CFS added between AWS and the customer
+```{image} lca1_images/shared-responsibility-model/shared-responsibility-model.png
+:alt: The AWS shared responsibility model with CFS added between AWS and the customer. Described under Shared Responsibility Model.
+:align: center
 ```
 
 ## Security
@@ -32,7 +33,7 @@ Please contact [rc-help@colorado.edu](mailto:rc-help@colorado.edu) for further i
 
 ### Acceptable Use
 
-All usage of AWS cloud accounts must comply with [CU Information Technology Polices](https://www.colorado.edu/information-technology/policy) and [Acceptable Use](https://www.colorado.edu/compliance/policies/acceptable-use-cu-boulders-it-resources).
+All usage of AWS cloud accounts must comply with [CU Information Technology Policies](https://www.colorado.edu/information-technology/policy) and [Acceptable Use](https://www.colorado.edu/compliance/policies/acceptable-use-cu-boulders-it-resources).
 
 ## RACI Matrix
 
@@ -54,88 +55,31 @@ A [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) 
 >
 > Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just one-way communication.
 
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
+Source: [Wikipedia Responsibility Assignment Matrix Page](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix)
 
 ### Cloud Foundations RACI Matrix
 
-The [RACI matrix](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) below defines the key roles and responsibilities among AWS, CFS, and CFS customers in a cloud account.
+The table below defines the key roles and responsibilities among AWS, Central IT (CURC / OIT), and customers in a cloud account.
 
-```{list-table} Cloud Foundations RACI Matrix for an AWS account
-:header-rows: 1
-
-* -
-  - Customer
-  - CFS
-  - AWS
-* - Customer Data
-  - RA
-  - C
-  -
-* - Applications
-  - RA
-  - C
-  -
-* - Operating Systems
-  - RA
-  - C
-  -
-* - Access Management
-  - RA
-  - C
-  -
-* - Network Traffic Protection
-  - RA
-  - C
-  -
-* - Data Encryption/Protection
-  - RA
-  - C
-  -
-* - Customer Workload Security
-  - RA
-  - C
-  -
-* - Border Network Protection
-  - CI
-  - RA
-  -
-* - CU Private DNS Integration
-  - I
-  - RA
-  -
-* - Network Configuration
-  - I
-  - RA
-  -
-* - CU Campus Network Connectivity
-  - I
-  - RA
-  -
-* - CU Security Logging Integration
-  - I
-  - RA
-  -
-* - CU IdentiKey Integration
-  - I
-  - RA
-  -
-* - CU Billing Integration
-  - C
-  - RA
-  -
-* - Account Brokering
-  - C
-  - RA
-  - I
-* - AWS Software/Services
-  - I
-  - I
-  - RA
-* - AWS Hardware/Global Infrastructure
-  -
-  -
-  - RA
-```
+| Responsibility Domain | Customer | Central IT (CURC/OIT) | AWS |
+| --- | --- | --- | --- |
+| Customer Data | RA | C | |
+| Applications | RA | C | |
+| Operating Systems | RA | C | |
+| Access Management | RA | C | |
+| Network Traffic Protection | RA | C | |
+| Data Encryption/Protection | RA | C | |
+| Customer Workload Security | RA | C | |
+| Border Network Protection | CI | RA | |
+| CU Private DNS Integration | I | RA | |
+| Network Configuration | I | RA | |
+| CU Campus Network Connectivity | I | RA | |
+| CU Security Logging Integration | I | RA | |
+| CU IdentiKey Integration | I | RA | |
+| CU Billing Integration | C | RA | |
+| Account Brokering | C | RA | I |
+| AWS Software/Services | I | I | RA |
+| AWS Hardware/Global Infrastructure | | | RA |
 
 ## Identifying CFS-Managed Resources
 

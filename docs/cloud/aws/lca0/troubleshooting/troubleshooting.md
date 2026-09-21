@@ -1,8 +1,8 @@
 # Troubleshooting
 
-This page covers common AWS permission errors in Cloud Foundations Service (CFS) accounts. Most of these errors occur when a new IAM user or role is created without the required permissions boundary.
+This page covers common AWS permission errors in CU Boulder AWS accounts. Most of these errors occur when a new IAM user or role is created without the required permissions boundary.
 
-If you are looking for general account questions, see the [AWS FAQs](../faq/faq.md).
+If you are looking for general account questions, see the [FAQs](../faq/faq.md) section.
 
 ## Failed to create role: not authorized to perform: iam:CreateRole
 
@@ -19,7 +19,7 @@ on resource: arn:aws:iam::<account-id>:role/<role-name>
 with an explicit deny in a permissions boundary
 ```
 
-```{image} images/create-role.png
+```{image} troubleshooting_images/create-role.png
 :alt: AWS console error banner stating Failed to create role because iam:CreateRole is denied by a permissions boundary.
 :align: center
 ```
@@ -27,7 +27,7 @@ with an explicit deny in a permissions boundary
 **Solution:**
 
 When creating AWS Roles, you must attach the "Customer_Admin_PermissionBoundary" Permission Boundary.
-See [Admin Account Permission Exclusions](../getting-started/customer-permission-boundary.md)
+See [Admin Account Permission Exclusions](../customer-permission-boundary.md) section.
 
 ## Unable to create user: not authorized to perform: iam:CreateUser
 
@@ -45,14 +45,14 @@ on resource: arn:aws:iam::<account-id>:user/<user-name>
 with an explicit deny in a permissions boundary
 ```
 
-```{image} images/create-user.png
+```{image} troubleshooting_images/create-user.png
 :alt: AWS console error titled Unable to create user, stating iam:CreateUser is denied by a permissions boundary.
 :align: center
 ```
 
 **Solution:**
 
-When creating AWS users, attach the `Customer_Admin_PermissionBoundary` permissions boundary. See [Admin Account Permission Exclusions](../getting-started/customer-permission-boundary.md).
+When creating AWS users, attach the `Customer_Admin_PermissionBoundary` permissions boundary. See [Admin Account Permission Exclusions](../customer-permission-boundary.md) section.
 
 
 ## AccessDenied: not authorized to perform: iam:CreateRole | Module Block
@@ -81,7 +81,7 @@ status code: 403
 
 The first error is raised from the EKS module IAM role. The second error is raised from the EKS managed node group submodule IAM role.
 
-```{image} images/create-role-terraform.png
+```{image} troubleshooting_images/create-role-terraform.png
 :alt: Terminal output showing two Terraform AccessDenied errors for iam:CreateRole on EKS cluster and node group roles because of a permissions boundary.
 :align: center
 ```
@@ -124,7 +124,7 @@ on eks.tf line 39, in resource "aws_iam_role" "example":
   39: resource "aws_iam_role" "example" {
 ```
 
-```{image} images/create-role-terraform-resource.png
+```{image} troubleshooting_images/create-role-terraform-resource.png
 :alt: Terminal output showing a Terraform AccessDenied error for iam:CreateRole on an aws_iam_role resource because of a permissions boundary.
 :align: center
 ```

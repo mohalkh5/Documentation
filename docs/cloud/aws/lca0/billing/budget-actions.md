@@ -12,20 +12,21 @@ You can attach budget actions to an alert for either a cost budget or a usage bu
 
 3.	Click on ‘create budget’, choose Budget setup as ‘Customize(advanced)’ and Budget type as ‘Cost budget’
 
-```{image} images/1.png
-:alt: AWS Budget creation wizard with Customize advanced selected and Cost budget chosen as the budget type.
+```{image} billing_images/1.png
+:alt: AWS Budget creation wizard with Customize advanced selected and Cost budget chosen as the budget type. Described under Creating a budget.
 :align: center
 ```
 4.	Enter a **Budget name**. Set **Set budget amount** to monthly, set **Budget renewal type** to **Recurring budget**, choose a **Start month**, set **Budgeting method** to **Fixed**, then enter your budgeted amount.
 
-```{image} images/2.png
-:alt: AWS Budget creation wizard budget details, including name, monthly recurring amount, start month, and fixed budgeting method.
+```{image} billing_images/2.png
+:alt: AWS Budget creation wizard budget details, including name, monthly recurring amount, start month, and fixed budgeting method. Described under Creating a budget.
 :align: center
 ```
+
 5.	Under **Budget scope**, select the services to include. This example uses **All AWS Services**. Select **Next**.
 
-```{image} images/3.png
-:alt: AWS Budget creation wizard budget scope step with All AWS Services selected.
+```{image} billing_images/3.png
+:alt: AWS Budget creation wizard budget scope step with All AWS Services selected. Described under Creating a budget.
 :align: center
 ```
 
@@ -35,18 +36,19 @@ To configure a budget action on an existing cost or usage budget, first follow t
 
 1.	To configure a budget action on a new alert, choose **Add an alert threshold**. To configure a budget action on an existing alert, skip to step 7.
 
-```{image} images/4.png
-:alt: AWS Budget creation wizard Configure alerts step with an Add an alert threshold button.
+```{image} billing_images/4.png
+:alt: AWS Budget creation wizard Configure alerts step with an Add an alert threshold button.  Described under Configure a budget action.
 :align: center
 ```
+
 2.	Under Set **alert threshold**, for Threshold, enter the amount that needs to be reached for you to be notified. This can be either an absolute value or a percentage(choose using drop down). For example, say you have a budget of $200. To be notiﬁed at $160 (80% of your budget), enter 160 for an absolute budget or 80 for a percentage budget.
 
     Next to the amount, choose **Absolute value** to be notiﬁed when your costs exceed the threshold amount. Or, choose **% of budgeted amount** to be notiﬁed when your costs exceed the threshold percentage.
 
     Next to the threshold, choose **Actual** to create an alert for actual spend ‘Trigger’. Or, choose **Forecasted** to create an alert for forecasted spend.
     
-    ```{image} images/5.png
-    :alt: AWS Budget creation wizard alert threshold fields for amount, absolute or percentage, and actual or forecasted spend.
+    ```{image} billing_images/5.png
+    :alt: AWS Budget creation wizard alert threshold fields for amount, absolute or percentage, and actual or forecasted spend. Described under Configure a budget action.
     :align: center
     ```
 
@@ -60,8 +62,8 @@ To configure a budget action on an existing cost or usage budget, first follow t
 
 7.	  For **Attach actions - Optional**, choose **Add Action.**
 
-```{image} images/6.png
-:alt: AWS Budget creation wizard Attach actions step with an Add Action button.
+```{image} billing_images/6.png
+:alt: AWS Budget creation wizard Attach actions step with an Add Action button. Described under Configure a budget action.
 :align: center
 ```
 
@@ -76,8 +78,8 @@ This managed policy is focused on specific actions that AWS Budgets takes on you
 
 12. For **How do you want to be alerted when this action is run, choose Use the same alert settings when you defined this threshold** or **Use different alert settings**. To use different alert settings, complete the **Notification preferences** specific to this action.
 
-```{image} images/7.png
-:alt: AWS Budget creation wizard action configuration fields for IAM role, action type, instance targets, automatic run, and alert settings.
+```{image} billing_images/7.png
+:alt: AWS Budget creation wizard action configuration fields for IAM role, action type, instance targets, automatic run, and alert settings. Described under Configure a budget action.
 :align: center
 ```
 
@@ -85,21 +87,21 @@ This managed policy is focused on specific actions that AWS Budgets takes on you
 
 14.	Review your budget settings, and then choose **Create budget**.
 
-```{image} images/8.png
-:alt: AWS Budget creation wizard review page summarizing budget details, alerts, and actions before Create budget.
+```{image} billing_images/8.png
+:alt: AWS Budget creation wizard review page summarizing budget details, alerts, and actions before Create budget. Described under Configure a budget action.
 :align: center
 ```
 
 After you create an action, you can view its status from the AWS Budgets page on the **Actions** column. This column shows your configured actions count, actions waiting for your approval (**Requires approval**), and your successfully completed actions.
 
-```{image} images/9.png
-:alt: AWS Budgets overview table with an Actions column showing configured, pending, and completed action counts.
+```{image} billing_images/9.png
+:alt: AWS Budgets overview table with an Actions column showing configured, pending, and completed action counts. Described under Configure a budget action.
 :align: center
 ```
 
 Once a budget action is taken place, you get alerts based on the chosen notification preference. Below is a snippet of an email notification.
 
-```{image} images/10.png
-:alt: Example AWS Budgets email notification stating that a budget threshold was exceeded and an action was taken.
+```{image} billing_images/10.png
+:alt: Example AWS Budgets email notification stating that a budget threshold was exceeded and an action was taken. Described under Configure a budget action.
 :align: center
 ```

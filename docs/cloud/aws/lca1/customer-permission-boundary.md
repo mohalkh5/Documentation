@@ -34,8 +34,9 @@ Creation of new users and roles is permitted with a few caveats:
 
 * Users and roles must be assigned the `oitcld-customer-roles-permission-boundary` permissions boundary during creation.
 * Role names must be prefixed with `customer-`, for example: `customer-role-test`. Failure to add the prefix will result in an error that you are not authorized to perform: iam:CreateRole api call.
-```{image} images/role-prefix-error.png
-:alt: The AWS shared responsibility model with CFS added between AWS and the customer
+```{image} lca1_images/role-prefix-error.png
+:alt: The AWS shared responsibility model with CFS added between AWS and the customer. Described under Creating Users and Roles.
+:align: center
 ```
 
 
@@ -55,6 +56,7 @@ When creating new AWS Roles or Users, customers must set the permissions boundar
 
 On Step 2 of the "Create role" or "Create user" wizard, search for and add the `oitcld-customer-roles-permission-boundary` policy to the "Set permissions boundary" section.
 
-```{image} images/customer-permission-boundary/permissions-boundary.png
-:alt: Attaching a permissions boundary to a new role in the AWS console
+```{image} lca1_images/customer-permission-boundary/permissions-boundary.png
+:alt: Attaching a permissions boundary to a new role in the AWS console. Described under Attaching Permissions Boundary.
+:align: center
 ```

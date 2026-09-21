@@ -5,7 +5,7 @@ Systems that fall under the [CU Data Classification](https://www.cu.edu/data-gov
 An SSP is a document that outlines how an organization protects the security of a system.
 An SSP is a critical document that helps organizations meet compliance requirements.
 
-Look here for more information about [Data Classification](../data-classification.md).
+Look here for more information about [Data Classification](data-classification.md).
 
 OIT's [IT Security](https://oit.colorado.edu/services/it-security) group is responsible for guiding and evaluating your SSP.
 [IT Security](https://oit.colorado.edu/services/it-security) prescribes the [NIST SP 800-171 Rev. 2](https://csrc.nist.gov/pubs/sp/800/171/r2/upd1/final)
@@ -27,7 +27,6 @@ We also have a guide to help you get started on your SSP journey.
 * [Getting Started](#getting-started)
 
 ## Shared Responsibility Model
-Start with understanding the [Shared Responsibility Model](../getting-started/shared-responsibility-model.md).
 It is important to know that the cloud provider, our service and you as the cloud customer all share the burden of securing systems.
 
 ## CFS **LCA1** Features
@@ -88,7 +87,7 @@ Both inbound and outbound traffic are inspected.
 The firewall and campus connection are managed by a partnership with
 [OIT Network and Internet Services](https://oit.colorado.edu/services/network-internet-services).
 
-For more information about this feature, see the **LCA1** [Network Information](../networking.md) page.
+For more information about this feature, see the **LCA1** [Network Information](networking.md) page.
 
 **Training and Support**
 
@@ -171,7 +170,7 @@ Here are some tools you might consider for implementing the systems above. Think
 The next step is to stand up your service, creating the necessary security control implementations and documentation.
 
 1. **Get the latest controls.** Reach out to [IT Security](https://oit.colorado.edu/services/it-security) to get the latest official list of required controls. Import this into your SSP tracking system. Confirm which subset of the controls apply to your service (usually based on data classification and service criticality).
-2. **Learn about shared responsibility.** Read and understand the [Shared Responsibility Model](../getting-started/shared-responsibility-model.md).
+2. **Learn about shared responsibility.** Read and understand the [Shared Responsibility Model](shared-responsibility-model.md).
 3. **Stand up your service.** Get an account on **LCA1**. Reach out to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) so that we can gather basic questionnaire information about your workload. Build out your service on AWS, but _do not put any non-public data in yet._
 4. **Secure your service.** Implement each of the required security controls by appropriately configuring your infrastructure, establishing team processes, and documenting everything. Ensure your documentation provides enough detail an auditor can use for evidence of proper implementation. Consider using references to your configuration management system and screenshots where appropriate.
 

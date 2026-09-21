@@ -14,7 +14,7 @@ By default, access is restricted to US regions only for confidential workloads.
 You will see API errors trying to access Non-US regions.
 If you need access to a Non-US region, reach out to <rc-help@colorado.edu>,
 and we can evaluate the possibility to operate in Non-US regions.
-See [AWS Restricted Regions](../getting-started/aws-restricted-regions.md).
+See [AWS Restricted Regions](../index.md#aws-restricted-regions).
 
 ## Why can't I see the AWS resources I created?
 **Answer:**
@@ -31,6 +31,7 @@ Send an email to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) and provide
 ## How do I find my Account ID and Alias?
 **Answer:**
 Click on the drop down on the top right corner of the console page to expand your account information.
-```{image} images/AcctNum.png
-:alt: AWS console home page with account information drop-down highlighted
+```{image} faq_images/AcctNum.png
+:alt: AWS console home page with account information drop-down highlighted. Described under How do I find my Account ID and Alias?
+:align: center
 ```

@@ -15,7 +15,7 @@ Then, in the wizard, you need to pick the Role you created.
 
 The standard CU Boulder AWS Account Baseline sets up a powerful AWS Role for use by the administrators in the customer department.
 This Role will generally be used to set up new IAM Roles and to deploy basic infrastructure, but should be treated similarly to other administrative accounts (think root or Administrator accounts) and only used when it's privileges are needed.
-Please consider the principal of least privilege when managing your accounts.
+Please consider the principle of least privilege when managing your accounts.
 
 In order to ensure that this role is not breaking components deployed as part of the CU Boulder standard AWS Account Baseline there are certain restrictions on what this role can perform.
 Outside of these restrictions, the `Customer Admin` role will have full administrative privileges.
@@ -50,5 +50,7 @@ During the Create role or Create user wizard:
 4. Select `Customer_Admin_PermissionBoundary`.
 5. Select Next: Tags to continue.
 
-![AWS Create role wizard Set permissions boundary section, with Use a permissions boundary selected, Customer_Admin_PermissionBoundary chosen, and Next: Tags highlighted.](images/customer-permission-boundary/permission-boundary.jpeg)
-
+```{image} lca0_images/customer-permission-boundary/permission-boundary.jpeg
+:alt: AWS Create role wizard Set permissions boundary section, with Use a permissions boundary selected, Customer_Admin_PermissionBoundary chosen, and Next: Tags highlighted. Described under Attaching Permission Boundary.
+:align: center
+```

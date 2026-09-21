@@ -38,14 +38,16 @@ Send an email to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) and provide
 ## How do I find my Account ID and Alias?
 **Answer:**
 Click on the drop down on the top right corner of the console page to expand your account information.
-```{image} images/AcctNum.png
-:alt: AWS console home page with account information drop-down highlighted
+```{image} faq_images/AcctNum.png
+:alt: AWS console home page with account information drop-down highlighted. Described under How do I find my Account ID and Alias?
+:align: center
 ```
 
 
 ## Can I alter or remove CFS resources?
 **Answer:**
 No. Resources owned by the **Cloud Foundations Service (CFS)** team cannot be altered or removed and they can be identified by name prefix and/or resource tags. Any resources with the prefix `oitcld-` are owned by CFS, in addition to those with the below tag attached.
-```{image} images/CFSTag.png
-:alt: AWS resource tag with key oit-cld:management:central and value true.
+```{image} faq_images/CFSTag.png
+:alt: AWS resource tag with key oit-cld:management:central and value true. Described under Can I alter or remove CFS resources?
+:align: center
 ```

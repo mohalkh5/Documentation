@@ -1,6 +1,6 @@
 # Network Cost Guide
 
-There are thre network acess methods available:
+There are three network acess methods available:
 
 1) Internet Gateway - used with public IP
 2) NAT Gateway - used with private IP
@@ -8,8 +8,9 @@ There are thre network acess methods available:
 
 ## Internet Gateway
 
-**Important**
-Always check [AWS documentation](https://aws.amazon.com/ec2/pricing/on-demand/) for current pricing.
+```{important}
+Always check [AWS EC2 On-Demand Pricing Page](https://aws.amazon.com/ec2/pricing/on-demand/) for current pricing.
+```
  
 **Network costs**
 
@@ -28,8 +29,9 @@ Always check [AWS documentation](https://aws.amazon.com/ec2/pricing/on-demand/) 
 
 ## NAT Gateway
 
-**Important**
-Always check [AWS documentation](https://aws.amazon.com/vpc/pricing/) for current pricing.
+```{important}
+Always check [AWS VPC Pricing Page](https://aws.amazon.com/vpc/pricing/) for current pricing.
+```
 
 **Network Costs**
 1) Downloads - $0.045/GB
@@ -48,8 +50,9 @@ Always check [AWS documentation](https://aws.amazon.com/vpc/pricing/) for curren
 
 ## CFS Transit Gateway VPN
 
-**Important**
-Always check [AWS documentation](https://aws.amazon.com/transit-gateway/pricing/) for current pricing.
+```{important}
+Always check [AWS Transit Gateway Pricing Page](https://aws.amazon.com/transit-gateway/pricing/) for current pricing.
+```
 
 **Network Costs**
 1) Downloads - $0.02/GB

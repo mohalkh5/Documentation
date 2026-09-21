@@ -16,24 +16,33 @@ Billing details can be viewed in the emailed invoices sent to the designated bil
 2. Enter your CU Credentials 
 3. Once you log in, it will take you to your dashboard
 4. In the top search bar, search for **Cost Management + Billing**. From the **Services** results, select **Cost Management + Billing**.
-   <br>![Azure portal search results for cost management, with Cost Management + Billing listed under Services. Described under Check your Bill in Azure. Described under How to Check your Bill in Azure.](images/navigate.png) <br><br>
-5. In the left navigation, under **Billing**, select **Usage + charges**. This page lists monthly Azure charges, marketplace charges, and total charges. You can change the timespan filter and download charges for an individual month.<br>
-   <br>![Azure portal Usage + charges page with a monthly table of Azure charges, marketplace charges, total charges, and download icons. Described under Check your Bill in Azure. Described under How to Check your Bill in Azure.](images/view.png) <br><br>
+	```{image} az_billing_images/navigate.png
+		:alt: Azure portal search results for cost management, with Cost Management + Billing listed under Services. Described under Check your Bill in Azure. 
+		:align: center
+	```
+5. In the left navigation, under **Billing**, select **Usage + charges**. This page lists monthly Azure charges, marketplace charges, and total charges. You can change the timespan filter and download charges for an individual month.
+	```{image} az_billing_images/view.png
+		:alt: Azure portal Usage + charges page with a monthly table of Azure charges, marketplace charges, total charges, and download icons. Described under Check your Bill in Azure.
+		:align: center
+	```
 6. For a more detailed breakdown, select **Cost analysis** in the left navigation under **Cost Management**. Use **Scope**, **View**, and the date range to filter costs, then download or share the view if needed.
-   <br>![Azure portal Cost analysis page with scope, view, and date range filters. Described under Check your Bill in Azure. Described under How to Check your Bill in Azure.](images/analysis.png) <br><br>
+	```{image} az_billing_images/analysis.png
+		:alt: Azure portal Cost analysis page with scope, view, and date range filters. Described under Check your Bill in Azure. 
+		:align: center
+	```
 
 ## Network Cost Guide
 
 There are three network acess methods available:
 
-1) Internet Gateway - used with public IP
-2) NAT Gateway - used with private or public IP
-3) CFS Transit Gateway (VPN) - used with private IP address, VPN connects back to CU Boulder
+1) **Internet Gateway** - used with public IP
+2) **NAT Gateway** - used with private or public IP
+3) **CFS Transit Gateway (VPN)** - used with private IP address, VPN connects back to CU Boulder
 
 ### 1. Internet Gateway
 
 ```{Important}
-Always check [Microsoft documentation](https://azure.microsoft.com/en-us/pricing/details/bandwidth/) for current pricing.
+Always check [Azure Bandwidth Pricing Page](https://azure.microsoft.com/en-us/pricing/details/bandwidth/) for current pricing.
 ```
  
 **Network costs**
@@ -52,8 +61,9 @@ Always check [Microsoft documentation](https://azure.microsoft.com/en-us/pricing
 	Total Network Cost = $34.80/month
 
 ### 2. NAT Gateway
+
 ```{Important}
-Always check [Microsoft documentation](https://azure.microsoft.com/en-us/pricing/details/virtual-network/) for current pricing.
+Always check [Azure Virtual Network Pricing Page](https://azure.microsoft.com/en-us/pricing/details/virtual-network/) for current pricing.
 ```
 
 ```{Important}
@@ -83,10 +93,6 @@ Creating another NAT Gateway without public internet access would incur the same
 
 ### 3. CFS VNET Peering (VPN)
 
-```{Important}
-Always check [Microsoft documentation](https://azure.microsoft.com/en-us/pricing/details/virtual-network/) for current pricing.
-```
-
 **Network Costs**
 1) Downloads - $0.01/GB
 2) Uploads - $0.01/GB
@@ -99,4 +105,3 @@ Always check [Microsoft documentation](https://azure.microsoft.com/en-us/pricing
 	2) Upload cost = $0.01 x 500 = $5
 
 	Total Network Cost = $6/month
-
