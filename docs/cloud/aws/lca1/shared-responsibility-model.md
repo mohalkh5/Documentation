@@ -5,7 +5,7 @@ The [AWS Shared Responsibility Model](https://aws.amazon.com/compliance/shared-r
 The Cloud Foundations (CFS) team extends the shared responsibility model by providing an additional layer of support between AWS and the customer. CFS manages the integration of the AWS cloud with CU standards and resources. CFS customers manage their applications, data, and use of cloud services.
 
 ```{image} lca1_images/shared-responsibility-model/shared-responsibility-model.png
-:alt: The AWS shared responsibility model with CFS added between AWS and the customer. Described under Shared Responsibility Model.
+:alt: :alt: AWS Shared Responsibility Model diagram with three tiers. Top tier (Customer - Security IN the cloud): Customer Data, Platform/Applications/Access Management, OS & Firewall Configuration, Data Encryption & Integrity, and Network Traffic Protection. Middle tier (Cloud Foundations - Security of INTEGRATING the cloud with CU): Account Brokering, Campus/Cloud Integration (Billing, Identity, Logging, Network, DNS, Firewall), and Security Framework & Assistance. Bottom tier (AWS - Security OF the cloud): Software & Cloud Services, Compute/Storage/Database/Networking, and Hardware & Global Infrastructure. Described under Shared Responsibility Model.
 :align: center
 ```
 
@@ -29,7 +29,7 @@ Here's a quick way to think about security:
 
 Each party involved in securing an AWS account is expected to produce and maintain their own System Security Plan (SSP). CFS can help customers get started with their SSP, target the appropriate standards, and contribute pre-configured resources to reduce time to compliance.
 
-Please contact [rc-help@colorado.edu](mailto:rc-help@colorado.edu) for further information.
+Please submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) for further information.
 
 ### Acceptable Use
 
@@ -93,4 +93,4 @@ CFS-managed resources may be identified by one or more of the following:
 * Naming Prefix: `oit-cld-lza`
 ```
 
-If there are any questions about resource ownership, please contact [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
+If there are any questions about resource ownership, please submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).

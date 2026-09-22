@@ -7,8 +7,7 @@ CU Research Computing provides support for billing Azure usage against CU funds,
 
 Once your account has been provisioned, sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.com) with your CU IdentiKey and Microsoft multi-factor authentication (MFA).
 
-If you are looking to get a new Azure subscription or have questions about an existing subscription, email [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
-
+If you need a new Azure account or have questions about an existing subscription, submit a request using the [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 
 ## What should I read next?
 

@@ -9,8 +9,8 @@ Sign in to the Azure portal at [https://portal.azure.com](https://portal.azure.c
 The **West US 2** Azure region is the preferred region.
 
 ## Who do I contact with questions about my Azure bill?
-Please email [rc-help@colorado.edu](mailto:rc-help@colorado.edu) for any billing issues or questions.
+Submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) for billing issues or questions.
 
 ## How do I close my Azure subscription?
 **Answer:**
-Send an email to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) and provide the subscription number or account alias for the Azure Account you wish to close.
+Submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) and provide the subscription number or account alias for the Azure account you want to close.

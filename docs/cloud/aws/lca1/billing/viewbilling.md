@@ -13,7 +13,7 @@ Four Points Technology (FPT) is our AWS reseller. They invoice you for your AWS 
 FPT provides us with the following discounts:
 
 * Contract Discount on most AWS resources, excluding AWS Marketplace, S3 Glacier Deep Archive, and AWS Storage Deep Archive charges
-* Egress waiver for some traffic ([contact us](mailto:rc-help@colorado.edu) for additional details)
+* Egress waiver for some traffic (submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) for additional details)
 
 ```{important}
 Due to this discount, what you see in the default AWS Cost Explorer will not match what's on your invoices. See below for how to calculate your actual costs from AWS Cost Explorer.

@@ -7,7 +7,7 @@ Azure billing is handled using SpeedType numbers. We support the following payme
 * Two or more speedtypes pay sequentially, with each paying up to a maximum amount before moving on to the next
 * Any mixed combination of the above
 
-Speedtypes will be charged during the next bill processing cycle. Please email [rc-help@colorado.edu](mailto:rc-help@colorado.edu) with any billing questions or concerns. 
+Speedtypes will be charged during the next bill processing cycle. Please submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) with any billing questions or concerns. 
 Billing details can be viewed in the emailed invoices sent to the designated billing contact or in the Azure billing portal.
 
 ### How to Check your Bill in Azure
@@ -67,7 +67,7 @@ Always check [Azure Virtual Network Pricing Page](https://azure.microsoft.com/en
 ```
 
 ```{Important}
-The CFS NAT Gateway will be deployed into subscriptions unless we are told otherwise. If you do not want to be charged for this and you do not require public internet access from your Azure environment, please contact [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
+The CFS NAT Gateway will be deployed into subscriptions unless we are told otherwise. If you do not want to be charged for this and you do not require public internet access from your Azure environment, please submit a ticket using the [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 ```
 
 **Network Costs**

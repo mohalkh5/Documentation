@@ -9,9 +9,7 @@ All new AWS accounts are configured with Basic Support. AWS offers higher suppor
 
 ## How to Upgrade your Support Plan
 
-To upgrade your support plan, send an email to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) and request an "AWS Support Change Request".
-Please provide your AWS Account Number in the request.
-You can also contact the OIT Support Center for assistance. For more details, visit the [OIT Support Center Website](https://oit.colorado.edu/support).
+To upgrade your support plan, submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) and request an AWS Support change. Include the AWS account number in your request. You can also contact the OIT Support Center for assistance. For more details, visit the [OIT Support Center Website](https://oit.colorado.edu/support).
 
 ## Support Levels and Costs
 

@@ -4,7 +4,7 @@ AWS provides numerous ways to predict, view, and manage your costs.
 
 ## Cost Estimates
 
-The [AWS Pricing Calculator](https://docs.aws.amazon.com/pricing-calculator/latest/userguide/create-configure-estimate.html) is a great way to estimate costs before deploying your infrastructure. If you'd like additional assistance in creating an estimate, please reach out to [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
+The [AWS Pricing Calculator](https://docs.aws.amazon.com/pricing-calculator/latest/userguide/create-configure-estimate.html) is a great way to estimate costs before deploying your infrastructure. 
 
 ## Viewing Costs
 

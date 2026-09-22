@@ -40,7 +40,7 @@ Both Internet and Private networks should also utilize [AWS Security Groups Docu
 
 ### Security Groups vs OIT Firewall
 
-The OIT firewall is application-aware, which means it can identify an application based off of network behavior in addition to port and protocol.  As an example, it can prevent a SQL packet from using a 22/TCP exception that was intended to allow SSH.  Changes to OIT firewall policy require a ticket to [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
+The OIT firewall is application-aware, which means it can identify an application based off of network behavior in addition to port and protocol.  As an example, it can prevent a SQL packet from using a 22/TCP exception that was intended to allow SSH.  Changes to OIT firewall policy require a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form).
 
 Security Groups are within the customer's span of control.  This means they can modify Security Groups quickly to meet security requirements without engaging an external group.  Security Groups can dynamically reference AWS resources but are not able to identify traffic by network behavior.
 

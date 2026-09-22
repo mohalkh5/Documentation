@@ -62,8 +62,7 @@ We have alarms set up to detect any usage of this important and powerful admin u
 procedures ensure that the root user is only used for approved use, requires approval, and is only
 used for very rare cases.  For a list of things that only the root user can do,
 [see this page](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html#root-user-tasks).
-In the rare event that any of these actions are needed, [rc-support@colorado.edu](mailto:rc-support@colorado)
-can assist with submitting a ticket with the CFS team.
+In the rare event that any of these actions are needed, submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) so we can assist with submitting a ticket with the CFS team.
 
 **Centralized Audit Logging**
 
@@ -101,11 +100,8 @@ We maintain a **Cloud Foundations NIST 800-171 Customer Guide** that provides mo
 
 Our service features can supplement your work to address each security control, but they do not automatically ensure compliance. Full compliance is dependent upon the details of your application and review from OIT Security.
 
-Please contact us at [rc-help@colorado.edu](mailto:rc-help@colorado.edu) to request access to the guide.
+Please submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) to request access to the guide.
 ```
-
-Not sure where to start with your cloud journey?  RC User Support is here to guide and assist!
-Reach out to us at [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
 
 ## Getting Started
 Beginning your SSP can be intimidating, but there are strategies your can take to set yourself up for success and streamline the process. These are the steps we recommend for working through your SSP.
@@ -171,7 +167,7 @@ The next step is to stand up your service, creating the necessary security contr
 
 1. **Get the latest controls.** Reach out to [IT Security](https://oit.colorado.edu/services/it-security) to get the latest official list of required controls. Import this into your SSP tracking system. Confirm which subset of the controls apply to your service (usually based on data classification and service criticality).
 2. **Learn about shared responsibility.** Read and understand the [Shared Responsibility Model](shared-responsibility-model.md).
-3. **Stand up your service.** Get an account on **LCA1**. Reach out to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) so that we can gather basic questionnaire information about your workload. Build out your service on AWS, but _do not put any non-public data in yet._
+3. **Stand up your service.** Get an account on **LCA1**. Submit a [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) so that we can gather basic questionnaire information about your workload. Build out your service on AWS, but _do not put any non-public data in yet._
 4. **Secure your service.** Implement each of the required security controls by appropriately configuring your infrastructure, establishing team processes, and documenting everything. Ensure your documentation provides enough detail an auditor can use for evidence of proper implementation. Consider using references to your configuration management system and screenshots where appropriate.
 
 ### Review the SSP

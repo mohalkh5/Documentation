@@ -2,8 +2,6 @@
 
 The `CustomerAdmin` role is the default role that customers use to administer their AWS account. This role should be used to set up new IAM roles and deploy required cloud infrastructure. In order to protect resources owned by other systems, some permissions are limited.
 
-If you have any questions about `CustomerAdmin` permissions or they are blocking the deployment of cloud resources, please reach out to [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
-
 ## Exclusions
 
 Explicitly denied actions to the `CustomerAdmin` role include:

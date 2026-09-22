@@ -32,7 +32,7 @@ Console users are not supported because it requires root user access.
 
 ## How do I close my AWS account?
 **Answer:**
-Send an email to [rc-help@colorado.edu](mailto:rc-help@colorado.edu) and provide the account number or account alias for the AWS Account you wish to close.  Be sure to leave your PO open for 2 billing cycles after the account has been closed to make sure there are no further charges before closing your PO.
+Submit a request using the [support request form](https://colorado.service-now.com/req_portal?id=ucb_sc_rc_form) and provide the account number or account alias for the AWS account you want to close. Leave your purchase order (PO) open for two billing cycles after the account is closed so any remaining charges can be processed before you close the PO.
 
 
 ## How do I find my Account ID and Alias?
