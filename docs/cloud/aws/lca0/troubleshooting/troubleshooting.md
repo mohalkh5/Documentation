@@ -71,12 +71,20 @@ on resource: arn:aws:iam::<account-id>:role/<cluster-role-name>
 with an explicit deny in a permissions boundary
 status code: 403
 
+with module.eks.aws_iam_role.this[0],
+on .terraform/modules/eks/main.tf line 387, in resource "aws_iam_role" "this":
+387: resource "aws_iam_role" "this" {
+
 Error: creating IAM Role (<node-group-role-name>): AccessDenied:
 User: arn:aws:sts::<account-id>:assumed-role/Shibboleth-Customer-Admin/<user>
 is not authorized to perform: iam:CreateRole
 on resource: arn:aws:iam::<account-id>:role/<node-group-role-name>
 with an explicit deny in a permissions boundary
 status code: 403
+
+with module.eks.module.eks_managed_node_group["example"].aws_iam_role.this[0],
+on .terraform/modules/eks/modules/eks-managed-node-group/main.tf line 497, in resource "aws_iam_role" "this":
+497: resource "aws_iam_role" "this" {
 ```
 
 The first error is raised from the EKS module IAM role. The second error is raised from the EKS managed node group submodule IAM role.

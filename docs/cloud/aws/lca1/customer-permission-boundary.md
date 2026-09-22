@@ -32,8 +32,17 @@ Creation of new users and roles is permitted with a few caveats:
 
 * Users and roles must be assigned the `oitcld-customer-roles-permission-boundary` permissions boundary during creation.
 * Role names must be prefixed with `customer-`, for example: `customer-role-test`. Failure to add the prefix will result in an error that you are not authorized to perform: iam:CreateRole api call.
+
+**Error message:**
+
+```
+Failed to create role test
+
+User arn:aws:sts::111111111111:assumed-role/test-role/ralphie@colorado.edu is not authorized to perform: iam:CreateRole on resource: arn:aws:iam::111111111111:role/test-role with an explicit deny in a permissions boundary: arn:aws:iam:: 111111111111:policy/test-boundary
+```
+
 ```{image} lca1_images/role-prefix-error.png
-:alt: The AWS shared responsibility model with CFS added between AWS and the customer. Described under Creating Users and Roles.
+:alt: AWS console error banner indicating a failure to create an IAM role named 'test' because the iam:CreateRole action is explicitly denied by a permissions boundary policy named 'test-boundary'. Text version provided below. Described under Creating Users and Roles.
 :align: center
 ```
 
