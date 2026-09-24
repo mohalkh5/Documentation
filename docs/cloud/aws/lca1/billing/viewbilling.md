@@ -167,7 +167,3 @@ Here's how to use AWS Cost Explorer to represent the charges you will see on an 
    ```{math}
    Invoice Total = \sum_{i \in Accounts} Account Total_i
    ```
-
-```{note}
-If you have any questions about your bill or need help calculating your costs, please contact us at [rc-help@colorado.edu](mailto:rc-help@colorado.edu).
-```
